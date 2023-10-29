@@ -5,3 +5,48 @@ Project: My Schedule
 Filename: styles.css
 */
 
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to right, #eeaeca ,#94bbe9);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+h1 {
+    margin: 5px;
+}
+
+table {
+    width: 80%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px inset black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+td, th {
+    border: 2px inset black;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
